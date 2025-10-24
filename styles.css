@@ -1,0 +1,130 @@
+/* fuente personalizada  */
+
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* ajuste de color columna izquierda */
+
+.bg-primary {
+    background-color: #2c3e50 !important;
+}
+/* fuente personalizada */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ajuste de color columna izquierda */
+.bg-primary {
+    background-color: #2c3e50 !important;
+}
+
+/* estilos para barras */
+.progress {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+
+.progress-bar {
+    width: 0; /* inicialmente vacías */
+    border-radius: 20px;
+    transition: width 1.5s ease-in-out;
+}
+
+/* Sección: Perfil Profesional */
+.perfil-profesional {
+    background-color: #f8f9fa; /* Fondo claro */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+
+.perfil-profesional .perfil-header {
+    background-color: #e9f0f7; /* Fondo del encabezado */
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #0d6efd; /* Azul bootstrap */
+}
+
+.perfil-profesional .perfil-header i {
+    font-size: 1.3rem;
+}
+
+.perfil-profesional .perfil-contenido {
+    margin-top: 15px;
+    padding-left: 10px;
+    color: #343a40;
+    line-height: 1.6;
+}
+
+/* Sección: Habilidades Técnicas */
+.habilidades-tecnicas .badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tech-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Colores personalizados para cada lenguaje */
+.tech-badge.java {
+    background-color: #e76f00;
+}
+
+.tech-badge.javascript {
+    background-color: #f7df1e;
+    color: #000;
+}
+
+.tech-badge.python {
+    background-color: #3776ab;
+}
+
+.tech-badge.html {
+    background-color: #e34f26;
+}
+
+.tech-badge.css {
+    background-color: #264de4;
+}
+
+.tech-badge.sql {
+    background-color: #00618a;
+}
+
+/* Soft Skills badges */
+.soft-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor flexible */
+.soft-skills .badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* Idiomas */
+.idioma .progress {
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
